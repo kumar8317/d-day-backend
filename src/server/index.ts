@@ -2,7 +2,7 @@ import dotenv from "dotenv";
 dotenv.config();
 import { Options, ServerApp } from "../express-server-lib";
 import config from "config";
-import exampleRouting from "./apis/example";
+import exampleRouting from "./apis/webhook";
 
 const serverName = "Server";
 
